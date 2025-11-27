@@ -4,7 +4,7 @@
 
 A basic full-stack web application to manage student fee records and display reporting dashboards.
 
-This submission implements*:
+This submission implements:
 
 - REST Backend for Students, Fee Bills & Transactions
 - Frontend Dashboard with Analytics

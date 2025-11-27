@@ -147,11 +147,11 @@ These are requirements we planned for but **not yet implemented**:
 
 | Feature                           | Status |
 | --------------------------------- | :----: |
-| Authorization & Role Based Access |    ❌   |
-| Large Data Scaling Strategy       |    ❌   |
-| Cloud Deployment                  |    ❌   |
-| Alerts for failed transactions    |    ❌   |
-| Excel export                      |    ❌   |
+| Authorization & Role Based Access |    No   |
+| Large Data Scaling Strategy       |    No   |
+| Cloud Deployment                  |    No   |
+| Alerts for failed transactions    |    No   |
+| Excel export                      |    No   |
 
 These can be built on top of the existing code easily.
 
@@ -165,7 +165,6 @@ I used ChatGPT to help with:
 * Fixing minor errors
 * Documentation
 
-Attached full chat history as required.
 
 ---
 

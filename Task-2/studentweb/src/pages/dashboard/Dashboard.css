@@ -1,0 +1,75 @@
+/* Page Theme */
+body {
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* Dashboard Header */
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Statistic Cards */
+.dashboard-card {
+  @apply p-6 rounded-2xl shadow-xl transform transition duration-300;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  @apply shadow-2xl;
+}
+
+/* Table Wrapper */
+.table-container {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  @apply shadow-lg;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  @apply text-gray-800 font-semibold text-sm uppercase tracking-wide;
+  background: #f7fafc;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+table td {
+  @apply text-gray-700;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Hover & Stripe Rows */
+tbody tr:nth-child(odd) {
+  background: #f9fafb;
+}
+
+tbody tr:hover {
+  background: #e8f0fe;
+  transition: 0.25s ease-in-out;
+}
+
+/* Table Title */
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Scrollbar styling for wide tables */
+::-webkit-scrollbar {
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6366f1;
+  border-radius: 10px;
+}
